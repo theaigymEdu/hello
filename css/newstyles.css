@@ -1,0 +1,46 @@
+/* /* Enhanced Hover Effects */
+.project-card {
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: 2px solid transparent;
+}
+
+.project-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 15px 30px rgba(246, 138, 10, 0.25) !important;
+    border-color: rgba(246, 138, 10, 0.3);
+}
+
+/* Enhanced search box hover effect */
+#searchBox:hover {
+    box-shadow: 0 0 0 4px rgba(246, 138, 10, 0.4), 
+                0 0 25px 12px rgba(246, 138, 10, 0.15) !important;
+    border-color: #f68a0a;
+    transform: scale(1.02);
+}
+
+/* Enhanced button hover effects */
+.whatsapp-btn.hover-effect:hover,
+.email-btn.hover-effect:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3) !important;
+}
+
+/* Enhanced tech badges hover */
+.tech-badge {
+    transition: all 0.3s ease;
+}
+
+.tech-badge:hover {
+    background-color: #f68a0a !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(246, 138, 10, 0.3);
+}
+
+/* Card image hover enhancement */
+.card-img-top {
+    transition: transform 0.4s ease;
+}
+
+.project-card:hover .card-img-top {
+    transform: scale(1.08);
+}
